@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.bar {
+       height: 36px;
+       background-color: rgb(91, 31, 148);
+}
+.bar a{
+    font-size: larger;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.gamezone {
+    display: grid;
+    grid-template-rows: repeat(3 , 10vw);
+    grid-template-columns: repeat(3 , 10vw);
+ 
+}
+.box {
+    font-size: 8vw;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bl{
+    border-left: none;
+}
+.bt{
+    border-top: none;
+}
+.bb{
+    border-bottom: none;
+}
+.br{
+    border-right: none;
+}
+.welcome{
+    padding: 30px;
+
+}
+.welcome h1{
+    padding: 5px;
+    padding-left: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info{
+    display: flex;
+    flex-flow: column;
+}
+.info span{
+    font-size: 30px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 150, 241);
+    padding: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    width: 33%;
+}
+button:active{
+    transform: scale(0.95);
+    background-color: rgb(11, 150, 241);
+}
